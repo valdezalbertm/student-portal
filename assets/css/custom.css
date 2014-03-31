@@ -1,0 +1,248 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html, body {
+  height: 100%;
+  /* THE HTML AND BODY ELEMENTS CANNOT HAVE ANY PADDING OR MARGIN. */
+}
+
+a {
+	color: #5cb85c;
+}
+
+a:hover, a:focus  {
+	color:#47a447;
+	text-decoration: none;
+}
+
+/* WRAPPER FOR PAGE CONTENT TO PUSH DOWN FOOTER */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* NEGATIVE INDENT FOOTER BY ITS HEIGHT */
+	margin: 0 auto -30px;
+	/* PAD BOTTOM BY FOOTER HEIGHT */
+	padding: 0 0 30px;
+	/* STYLING FOR HOME PAGE */
+	position: relative;
+}
+
+/* SET THE FIXED HEIGHT OF THE FOOTER HERE */
+#footer {
+	height: 30px;
+	padding-top: 5px;
+	border-top: 1px solid #080808;
+	position: relative;
+	background:rgba(34,34,34,0.5);
+	color: white;
+}
+
+#footer .container {
+	height: 20px;
+	position: relative;
+	z-index: 999;
+}
+
+#footer .facebook {
+	color: #45619d;
+}
+
+@media (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+.navigation {
+	max-width:500px; 
+	margin-top:150px; 
+	padding-right: 0px;
+	position: relative;
+	z-index: 999;
+}
+
+.transparent-nav {
+	background:rgba(34,34,34,0.8);
+	color: #ffffff;
+}
+
+.transparent-btn-default {
+	height: 50px;
+	padding-top: 14px;
+	text-align: left;
+	background:rgba(255,255,255,0.8);
+	font-size: 16px; 
+}
+
+.transparent-btn-success {
+	height: 50px;
+	padding-top: 14px;
+	text-align: left;
+	background:rgba(92,184,92,0.8);
+	font-size: 16px; 
+}
+
+.transparent-inverse {
+	background:rgba(0,0,0,0.5);
+	border: 1px solid #2c2c2c;
+}
+
+.transparent-inverse:hover, .transparent-inverse:focus {
+	background:rgba(0,0,0,0.8);
+	border: 1px solid #000;
+}
+
+.glyphicon.glyphicon-chevron-left {
+	left: 10%;
+}
+
+.carousel-control .glyphicon.glyphicon-chevron-left {
+	left: 10%;
+}
+
+.carousel-control .glyphicon.glyphicon-chevron-right {
+	right: 10%;
+}
+
+.social-nav {
+	width:55px;
+	height: 25px;
+	margin: -23px auto auto 115px;
+	position:relative;
+}
+.social-nav li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:0;
+}
+
+.social-nav li, .social-nav a{
+	height: 25px;
+	display:block;
+}
+
+.facebook {
+	left:0px;
+	width:26px;
+	background:url("../img/social-icon.png") -32px 0;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+		 -o-transition: all .5s ease-in-out;
+			transition: all .5s ease-in-out;
+}
+
+.twitter {
+	left:28px;
+	width:26px;
+	background:url("../img/social-icon.png") 0px 0;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+		 -o-transition: all .5s ease-in-out;
+			transition: all .5s ease-in-out;
+}
+
+.facebook:hover, .twitter:hover {
+	filter: alpha(opacity=1);
+	opacity: 1;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+		 -o-transition: all .5s ease-in-out;
+			transition: all .5s ease-in-out;
+}
+
+.modal-dialog .modal-content {
+	color: white;
+	background:rgba(0,0,0,0.9);
+}
+
+.modal-dialog .close {
+	color: white;
+	opacity: 1;
+}
+
+.modal-dialog .close:hover, .modal-dialog .close:focus{
+	opacity: 0.5;
+}
+
+.modal-dialog a{
+	color: #015500;
+}
+
+.center {
+	text-align: center
+}
+
+.scholarhip-form {
+	max-width:700px; 
+	margin-top:150px; 
+	margin-bottom: 10px;
+	padding: 20px 10px 20px 20px;
+	background:rgba(34,34,34,0.8);
+	border: 1px solid #000000;
+	color: #ffffff;
+	position: relative;
+	z-index: 999;
+}
+
+.scholarhip-form .student,
+.scholarhip-form .applicant { 
+	height: 280px;
+	padding-right: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.passers-form {
+	margin-bottom: 10px;
+}
+
+.applicant-wrapper {
+	max-height: 280px;
+	overflow: hidden;
+}
+
+.seperator {
+	font-size: 18px;
+}
+
+.quiz-form {
+	margin-top: 150px;
+}
+
+.question {
+	border-bottom: 1px solid #ddd;
+}
+
+.result-form {
+	margin-top: 50px;
+}
+
+.fa-green {
+	color:#47a447;
+}
+
+.fa-red {
+	color: #a94442;
+}
+
+.result-nav {
+	overflow: hidden;
+}
+
+.icon-percent::before {
+    content: '%';
+    font-weight: bold;
+}
+
+th {
+    vertical-align: middle !important;
+    text-align: center;
+}

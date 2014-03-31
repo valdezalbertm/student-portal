@@ -1,0 +1,99 @@
+5TH COMPILATION CHANGES
+	MODELS
+		EDIT Question 
+		EDIT ScholarshipQuiz
+		EDIT StudentScholarship
+
+	VIEWS
+		ADD administrator.scholarship.print
+		
+		EDIT administrator.question.create
+		EDIT administrator.question.edit
+		EDIT administrator.question.index
+		EDIT administrator.quiz-scholarship.index
+		EDIT administrator.scholarship.reports
+		EDIT adminsitrator.layout
+		EDIT user.quiz.result
+		EDIT user.scholarship.index
+
+	CONTROLLERS
+		EDIT AdminQuizQuestionController
+		EDIT ScholarshipController
+
+	EDIT ROUTES
+
+	CSS
+		EDIT custom.css
+		EDIT administrator/custom.css
+
+4TH COMPILATION CHANGES
+	MODEL
+	*	EDIT Account -- 
+	*	EDIT StudentScholarship --
+	*	EDIT ScholarshipQuiz
+
+	VIEW
+	*	EDIT admin.login
+	*	EDIT administrator.sidebar --
+	*	EDIT administrator.quiz.index
+	*	EDIT administrator.question.index
+	*	EDIT administrator.choice.index
+	*	EDIT administrator.quiz-scholarship.index
+	*	EDIT administrator.scholarship.reports
+	*	EDIT administrator.choice.create
+	*	EDIT administrator.question.create
+	*	EDIT administrator.quiz.create
+	*	EDIT administrator.question.edit
+	*	EDIT user.quiz.result
+	*	EDIT include.css
+	*	EDIT layout2
+
+	CONTROLLER
+	*	AdministratorController --
+	*	AdminQuizController 
+	*	AdminQuizQuestionController
+	*	AdminQuestionChoiceController
+	*	AdminQuizScholarshipController
+	*	ScholarshipController
+	*	UserScholarshipController
+	*	UserQuizController
+
+	*EDIT ROUTES
+
+	CSS
+	*	EDIT custom.css
+	*	EDIT administrator/custom.css
+
+* 3RD COMPILATION CHANGES
+	ADD TABLE
+	*	EDIT applicant
+	*	EDIT applicant_scholarship_quiz_result_copy
+
+	MODEL
+	*	EDIT Applicant
+	*	EDIT ApplicantScholarshipQuizResult
+	*	EDIT Question
+	*	EDIT QuizQuestion
+	*	EDIT Subject
+
+	VIEWS
+	*	EDIT user.scholarship.index
+	*	EDIT user.quiz.index
+	*	EDIT administrator.scholarship.reports
+	*	EDIT user.quiz.index
+
+	CONTROLLER
+	*	EDIT UserScholarshipController
+	*	EDIT UserQuizController
+	*	EDIT ScholarshipController
+
+	*EDIT ROUTES
+		
+	CSS
+	*	ADD perfect-scrollbar
+	*	EDIT custom.css
+	*	EDIT administrator/custom.css
+
+	JS
+	*	ADD PERFECT SCROLL BAR
+
